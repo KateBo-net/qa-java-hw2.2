@@ -15,6 +15,7 @@ public class Main {
                 int refill = enteredValue.nextInt();
                 if (refill>1000){
                     accountAmount = balance + refill + refill/100;
+                    System.out.println("Your bonus: " + refill/100);
                 }else {
                     accountAmount = balance + refill;
                 }
